@@ -2,7 +2,7 @@ function oneThroughTwenty(listanumeros) {
 
   let numaro = []
 
-  for(let i = 0; i <= listanumeros; i++){
+  for(let i = 1; i <= listanumeros; i++){
 
     if(i <= 20){
 
@@ -21,7 +21,7 @@ function evensToTwenty(listaPares) {
 
     let pares = []
 
-    for(let i = 0; i <= listaPares; i++){
+    for(let i = 2; i <= listaPares; i++){
 
       if(i % 2 == 0){
 
@@ -40,7 +40,7 @@ function oddsToTwenty(listaImpares) {
      
   let impares = []
 
-  for(let i = 0; i <= listaImpares; i++){
+  for(let i = 1; i <= listaImpares; i++){
 
     if(i % 2 == 1){
 
@@ -58,7 +58,7 @@ function multiplesOfFive(liste) {
      
   let multcinco = [];
   
-  for(let i = 0; i < liste; i++) {
+  for(let i = 5; i < liste; i++) {
     if(i % 5 == 0 )
     multcinco.push(i)
 
@@ -103,7 +103,7 @@ function countingBackwards(listanumeros2) {
  return numaro2
 }
 
-console.log(countingBackwards(0))
+console.log(countingBackwards(1))
 
 //-------------------------------------------------
  
@@ -123,7 +123,7 @@ function evenNumbersBackwards(listaPares2) {
  return pares2
 }
 
-console.log(evenNumbersBackwards(0))
+console.log(evenNumbersBackwards(2))
 
 //-------------------------------------------------
  
@@ -141,7 +141,7 @@ function oddNumbersBackwards(listaImpares2) {
  return impares2
 }
  
-console.log(oddNumbersBackwards(0))
+console.log(oddNumbersBackwards(1))
 
 //-------------------------------------------------
  
